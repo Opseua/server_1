@@ -1,3 +1,12 @@
 {
-    "/teste": "/employees"
+    "/todos_os_funcionarios": "/funcionarios",
+    "/adicionar_funcionario": "/funcionarios",
+    "/deletar_funcionario/:id": "/funcionarios/:id",
+    "/atualizar_funcionario/:id": "/funcionarios/:id",
+
+
+
+
+
+    "/teste": "/funcionarios"
 }

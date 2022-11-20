@@ -1,14 +1,14 @@
 {
-    "employees": [
-      {
-        "id": 1,
-        "name": "Pankaj",
-        "salary": "10000"
-      },
-      {
-        "name": "David",
-        "salary": "5000",
-        "id": 2
-      }
+    "funcionarios": [
+        {
+            "nome": "Rafael",
+            "idade": 30,
+            "id":1
+        },
+        {
+            "nome": "Pedro",
+            "idade": 25,
+            "id":2
+        }
     ]
-  }
+}
