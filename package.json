@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --routes routes.json --port 8080"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
