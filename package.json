@@ -4,7 +4,7 @@
   },
   "name": "server_3",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "scripts": {
     "start": "node server.js"
