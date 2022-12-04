@@ -1,22 +1,32 @@
 {
     "corretores": [
       {
-        "nome": "NOME DO CORRETOR AQUI 1",
-        "cpf": "111.111.111-11",
-        "idade": "25",
-        "salario": "2.900"
+        "id": 1,
+        "nome": "Brian Cerqueira",
+        "cpf": "988.862.456-10",
+        "idade": "19 anos",
+        "salario": "9000"
       },
       {
-        "nome": "NOME DO CORRETOR AQUI 2",
-        "cpf": "222.222.222-22",
-        "idade": "32",
-        "salario": "1.780"
+        "id": 2,
+        "nome": "Neymar Júnior",
+        "cpf": "099.881.310-40",
+        "idade": "30 anos",
+        "salario": "1000"
       },
       {
-        "nome": "NOME DO CORRETOR AQUI 3",
-        "cpf": "333.333.333-33",
-        "idade": "42",
-        "salario": "5.752"
+        "id": 3,
+        "nome": "Richarlison",
+        "cpf": "421.810.577-31",
+        "idade": "25 anos",
+        "salario": "7000"
+      },
+      {
+        "id": 4,
+        "nome": "Pelé",
+        "cpf": "876.341.796-30",
+        "idade": "82 anos",
+        "salario": "1600"
       }
     ],
     "inquilino": [
