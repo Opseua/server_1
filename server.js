@@ -13,11 +13,11 @@ server.use(jsonServer.rewriter({
   "/corretor/editar/:id": "/corretores/:id",
   "/corretor/deletar/:id": "/corretores/:id",
 
-  "/formasdepagamento/listar": "/formasdepagamento",
-  "/formadepagamento/adicionar": "/formasdepagamento",
-  "/formadepagamento/detalhar/:id": "/formasdepagamento/:id",
-  "/formadepagamento/editar/:id": "/formasdepagamento/:id",
-  "/formadepagamento/deletar/:id": "/formasdepagamento/:id",
+  "/formas_de_pagamento/listar": "/formas_de_pagamento",
+  "/forma_de_pagamento/adicionar": "/formas_de_pagamento",
+  "/forma_de_pagamento/detalhar/:id": "/formas_de_pagamento/:id",
+  "/forma_de_pagamento/editar/:id": "/formas_de_pagamento/:id",
+  "/forma_de_pagamento/deletar/:id": "/formas_de_pagamento/:id",
 
   "/imoveiscomerciais/listar": "/imoveiscomerciais",
   "/imovelcomercial/adicionar": "/imoveiscomerciais",
