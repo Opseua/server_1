@@ -1,10 +1,22 @@
 {
     "corretores": [
       {
-        "nome": "NOME DO CORRETOR AQUI",
+        "nome": "NOME DO CORRETOR AQUI 1",
         "cpf": "111.111.111-11",
         "idade": "25",
         "salario": "2.900"
+      },
+      {
+        "nome": "NOME DO CORRETOR AQUI 2",
+        "cpf": "222.222.222-22",
+        "idade": "32",
+        "salario": "1.780"
+      },
+      {
+        "nome": "NOME DO CORRETOR AQUI 3",
+        "cpf": "333.333.333-33",
+        "idade": "42",
+        "salario": "5.752"
       }
     ],
     "inquilino": [
