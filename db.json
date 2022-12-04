@@ -169,29 +169,29 @@
             "valor_do_condominio": "R$2.574,00/mês"
         }
     ],
-    "formasdepagamento": [
+    "formas_de_pagamento": [
       {
         "id": 17,
-        "Forma_1": "Pix",
-        "Conta": "Nubank pagamentos",
+        "metodo": "Pix",
+        "conta": "Nubank pagamentos",
         "limite_de_deposito": "15000"
       },
       {
         "id": 18,
-        "Forma_2": "Cheque",
-        "Conta": "Banco do Brasil",
+        "metodo": "Cheque",
+        "conta": "Banco do Brasil",
         "limite_de_deposito": "10000"
       },
       {
         "id": 19,
-        "Forma_3": "Débito automático",
-        "Conta": "Itaú UniBanco",
+        "metodo": "Débito automático",
+        "conta": "Itaú UniBanco",
         "limite_de_deposito": "9000"
       },
       {
         "id": 20, 
-        "Forma_4": "Boleto",
-        "Conta": "Banco Bradesco",
+        "metodo": "Boleto",
+        "conta": "Banco Bradesco",
         "limite_de_deposito": "8000"
       }]
   }
