@@ -169,7 +169,7 @@
             "valor_do_condominio": "R$2.574,00/mês"
         }
     ],
-    "formas_de_pagamento": [
+    "formasdepagamento": [
       {
         "id": 17,
         "Forma_1": "Pix",
