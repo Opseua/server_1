@@ -8,10 +8,10 @@ const port = process.env.PORT || 8080;
 server.use(middlewares);
 server.use(jsonServer.rewriter({
   "/corretores/listar": "/corretores",
-  "/corretore/criar": "/corretores",
-  "/corretore/detalhar/:id": "/corretores/:id",
-  "/corretore/editar/:id": "/corretores/:id",
-  "/corretore/deletar/:id": "/corretores/:id",
+  "/corretor/criar": "/corretores",
+  "/corretor/detalhar/:id": "/corretores/:id",
+  "/corretor/editar/:id": "/corretores/:id",
+  "/corretor/deletar/:id": "/corretores/:id",
 
   "/formasdepagamento/listar": "/formasdepagamento",
   "/formadepagamento/criar": "/formasdepagamento",
