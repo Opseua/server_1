@@ -1,106 +1,197 @@
 {
-    "rota_1": [
+    "corretores": [
+      {
+        "id": 1,
+        "nome": "Brian Cerqueira",
+        "cpf": "988.862.456-10",
+        "idade": "19 anos",
+        "salario": "9000"
+      },
+      {
+        "id": 2,
+        "nome": "Neymar Júnior",
+        "cpf": "099.881.310-40",
+        "idade": "30 anos",
+        "salario": "1000"
+      },
+      {
+        "id": 3,
+        "nome": "Richarlison",
+        "cpf": "421.810.577-31",
+        "idade": "25 anos",
+        "salario": "7000"
+      },
+      {
+        "id": 4,
+        "nome": "Pelé",
+        "cpf": "876.341.796-30",
+        "idade": "82 anos",
+        "salario": "1600"
+      }
+    ],
+    "inquilino": [
+      {
+        "id": 5,
+        "nome": "Adão Pereira",
+        "salário": "4000",
+        "cpf": "073.103.407-44",
+        "idade": "30",
+        "profissao":"Eletricista",
+        "contato":"(22) 97443-2859",
+        "tempo_como_inquilino": "5 anos"
+      },
+      {
+        "id": 6,
+        "nome": "Cristiano Ronaldo",
+        "salário": "4200",
+        "cpf": "591.971.187-61",
+        "idade": "28",
+        "profissao":"Professor de ingles",
+        "contato":"(22) 97625-5713",
+        "tempo_como_inquilino": "2 anos"
+      },
+      {
+        "id": 7,
+        "nome": "Giorgian De Arrascaeta",
+        "salário": "3200",
+        "cpf": "954.716.077-08",
+        "idade": "53",
+        "profissao":"Chefe de cozinha",
+        "contato":"(21) 96889-4671",
+        "tempo_como_inquilino": "4 anos"
+      },
+      {
+        "id": 8,
+        "nome": "Lionel Messi",
+        "salário": "2500",
+        "cpf": "834.595.017-58",
+        "idade": "24",
+        "profissao":"Autonomo",
+        "contato":"(21) 99211-9761",
+        "tempo_como_inquilino": "3 anos"
+      },
+    []
+  ],
+    "imovel_residencial": [
         {
-            "1_inf_1": "inf 1",
-            "1_inf_2": "inf 2",
-            "1_inf_3": "inf 3",
-            "id": 1
+            "id": 9,
+            "tipo_de_imovel": "Apartamento",
+            "area": "140m²",
+            "quartos": 4,
+            "banheiros": 3,
+            "garagens": 2, 
+            "endereco": "Rua Conde de Bonfim, Tijuca, Rio de Janeiro/RJ",
+            "tipo_de_contrato": "Contrato de locação residencial",
+            "valor_do_imovel": "R$2.500,00/mês",
+            "valor_do_condominio": "R$1.000,00/mês"
         },
         {
-            "2_inf_1": "inf 1",
-            "2_inf_2": "inf 2",
-            "2_inf_3": "inf 3",
-            "id": 2
+            "id": 10,
+            "tipo_de_imovel": "Casa",
+            "area": "118m²",
+            "quartos": 2,
+            "banheiros": 3,
+            "garagens": 1, 
+            "endereco": "Rua Oswaldo Lussac, Taquara, Rio de Janeiro/RJ",
+            "tipo_de_contrato": "Contrato de compra e venda de imóvel",
+            "valor_do_imovel": "R$390.000,00",
+            "valor_do_condominio": "R$209,00/mês"
         },
         {
-            "3_inf_1": "inf 1",
-            "3_inf_2": "inf 2",
-            "3_inf_3": "inf 3",
-            "id": 3
+            "id": 11,
+            "tipo_de_imovel": "Loft",
+            "area": "50m²",
+            "quartos": 1,
+            "banheiros": 1,
+            "garagens": 1, 
+            "endereco": "Avenida Almirante Ary Parreiras, Icaraí, Niterói/RJ",
+            "tipo_de_contrato": "Contrato de compra e venda de imóvel",
+            "valor_do_imovel": "R$550.000,00",
+            "valor_do_condominio": "R$660,00/mês"
         },
         {
-            "4_inf_1": "inf 1",
-            "4_inf_2": "inf 2",
-            "4_inf_3": "inf 3",
-            "id": 4
+            "id": 12,
+            "tipo_de_imovel": "Apartamento",
+            "area": "92m²",
+            "quartos": 3,
+            "banheiros": 2,
+            "garagens": 1, 
+            "endereco": "Avenida Atlântica, Leme, Rio de Janeiro/RJ",
+            "tipo_de_contrato": "Contrato de locação residencial",
+            "valor_do_imovel": "R$3.800,00/mês",
+            "valor_do_condominio": "R$1.610,00/mês"
+            
         }
     ],
-    "rota_2": [
+    "imovel_comercial": [
         {
-            "1_inf_1": "inf 1",
-            "1_inf_2": "inf 2",
-            "1_inf_3": "inf 3",
-            "id": 1
+            "id": 13,
+            "tipo_de_imovel": "Sala comercial",
+            "endereco": "Avenida das Américas, Barra da Tijuca, Rio de Janeiro/RJ",
+            "salas": 2,
+            "banheiros": 2,
+            "garagens": 3,
+            "tipo_de_contrato": "Contrato de locação comercial",
+            "valor_do_imovel": "R$5.000,00/mês",
+            "valor_do_condominio": "R$2.450,00/mês"
         },
         {
-            "2_inf_1": "inf 1",
-            "2_inf_2": "inf 2",
-            "2_inf_3": "inf 3",
-            "id": 2
+            "id": 14,
+            "tipo_de_imovel": "Casa comercial",
+            "endereco": "Rua Porto Amazonas, Campo Grande, Rio de Janeiro/RJ",
+            "salas": 3,
+            "banheiros": 2,
+            "garagens": 2,
+            "tipo_de_contrato": "Contrato de compra e venda de estabelecimento comercial",
+            "valor_do_imovel": "R$850.000,00",
+            "valor_do_condominio": "R$0,00"
         },
         {
-            "3_inf_1": "inf 1",
-            "3_inf_2": "inf 2",
-            "3_inf_3": "inf 3",
-            "id": 3
+            "id": 15,
+            "tipo_de_imovel": "Ponto comercial",
+            "endereco": "Rua Voluntários da Pátria, Botafogo, Rio de Janeiro/RJ",
+            "salas": 2,
+            "banheiros": 2,
+            "garagens": 0,
+            "tipo_de_contrato": "Contrato de locação comercial",
+            "valor_do_imovel": "R$15.000,00/mês",
+            "valor_do_condominio": "R$6.000,00/mês"
         },
         {
-            "4_inf_1": "inf 1",
-            "4_inf_2": "inf 2",
-            "4_inf_3": "inf 3",
-            "id": 4
+            "id": 16,
+            "tipo_de_imovel": "Sala comercial",
+            "endereco": "Rua São José, Centro, Rio de Janeiro/RJ",
+            "salas": 4,
+            "banheiros": 2,
+            "garagens": 1,
+            "tipo_de_contrato": "Contrato de locação comercial",
+            "valor_do_imovel": "R$3.848,00/mês",
+            "valor_do_condominio": "R$2.574,00/mês"
         }
     ],
-    "rota_3": [
-        {
-            "1_inf_1": "inf 1",
-            "1_inf_2": "inf 2",
-            "1_inf_3": "inf 3",
-            "id": 1
-        },
-        {
-            "2_inf_1": "inf 1",
-            "2_inf_2": "inf 2",
-            "2_inf_3": "inf 3",
-            "id": 2
-        },
-        {
-            "3_inf_1": "inf 1",
-            "3_inf_2": "inf 2",
-            "3_inf_3": "inf 3",
-            "id": 3
-        },
-        {
-            "4_inf_1": "inf 1",
-            "4_inf_2": "inf 2",
-            "4_inf_3": "inf 3",
-            "id": 4
-        }
-    ],
-    "rota_4": [
-        {
-            "1_inf_1": "inf 1",
-            "1_inf_2": "inf 2",
-            "1_inf_3": "inf 3",
-            "id": 1
-        },
-        {
-            "2_inf_1": "inf 1",
-            "2_inf_2": "inf 2",
-            "2_inf_3": "inf 3",
-            "id": 2
-        },
-        {
-            "3_inf_1": "inf 1",
-            "3_inf_2": "inf 2",
-            "3_inf_3": "inf 3",
-            "id": 3
-        },
-        {
-            "4_inf_1": "inf 1",
-            "4_inf_2": "inf 2",
-            "4_inf_3": "inf 3",
-            "id": 4
-        }
-    ]
-}
+    "formas_de_pagamento": [
+      {
+        "id": 17,
+        "Forma_1": "Pix",
+        "Conta": "Nubank pagamentos",
+        "limite_de_deposito": "15000"
+      },
+      {
+        "id": 18,
+        "Forma_2": "Cheque",
+        "Conta": "Banco do Brasil",
+        "limite_de_deposito": "10000"
+      },
+      {
+        "id": 19,
+        "Forma_3": "Débito automático",
+        "Conta": "Itaú UniBanco",
+        "limite_de_deposito": "9000"
+      },
+      {
+        "id": 20, 
+        "Forma_4": "Boleto",
+        "Conta": "Banco Bradesco",
+        "limite_de_deposito": "8000"
+      }]
+  }
