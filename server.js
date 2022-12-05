@@ -25,11 +25,11 @@ server.use(jsonServer.rewriter({
   "/imovel_comercial/editar/:id": "/imoveis_comerciais/:id",
   "/imovel_comercial/deletar/:id": "/imoveis_comerciais/:id",
   
-  "/imoveisresidenciais/listar": "/imoveisresidenciais",
-  "/imovelresidencial/adicionar": "/imoveisresidenciais",
-  "/imovelresidencial/detalhar/:id": "/imoveisresidenciais/:id",
-  "/imovelresidencial/editar/:id": "/imoveisresidenciais/:id",
-  "/imovelresidencial/deletar/:id": "/imoveisresidenciais/:id",
+  "/imoveis_residenciais/listar": "/imoveis_residenciais",
+  "/imovel_residencial/adicionar": "/imoveis_residenciais",
+  "/imovel_residencial/detalhar/:id": "/imoveis_residenciais/:id",
+  "/imovel_residencial/editar/:id": "/imoveis_residenciais/:id",
+  "/imovel_residencial/deletar/:id": "/imoveis_residenciais/:id",
 
   "/inquilinos/listar": "/inquilinos",
   "/inquilino/adicionar": "/inquilinos",
