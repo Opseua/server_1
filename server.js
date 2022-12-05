@@ -19,11 +19,11 @@ server.use(jsonServer.rewriter({
   "/forma_de_pagamento/editar/:id": "/formas_de_pagamento/:id",
   "/forma_de_pagamento/deletar/:id": "/formas_de_pagamento/:id",
 
-  "/imoveiscomerciais/listar": "/imoveiscomerciais",
-  "/imovelcomercial/adicionar": "/imoveiscomerciais",
-  "/imovelcomercial/detalhar/:id": "/imoveiscomerciais/:id",
-  "/imovelcomercial/editar/:id": "/imoveiscomerciais/:id",
-  "/imovelcomercial/deletar/:id": "/imoveiscomerciais/:id",
+  "/imoveis_comerciais/listar": "/imoveis_comerciais",
+  "/imovel_comercial/adicionar": "/imoveis_comerciais",
+  "/imovel_comercial/detalhar/:id": "/imoveis_comerciais/:id",
+  "/imovel_comercial/editar/:id": "/imoveis_comerciais/:id",
+  "/imovel_comercial/deletar/:id": "/imoveis_comerciais/:id",
   
   "/imoveisresidenciais/listar": "/imoveisresidenciais",
   "/imovelresidencial/adicionar": "/imoveisresidenciais",
