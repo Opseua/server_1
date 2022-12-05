@@ -33,7 +33,7 @@
       {
         "id": 5,
         "nome": "Adão Pereira",
-        "salário": "4000",
+        "salario": "4000",
         "cpf": "073.103.407-44",
         "idade": "30",
         "profissao":"Eletricista",
@@ -43,7 +43,7 @@
       {
         "id": 6,
         "nome": "Cristiano Ronaldo",
-        "salário": "4200",
+        "salario": "4200",
         "cpf": "591.971.187-61",
         "idade": "28",
         "profissao":"Professor de ingles",
@@ -53,7 +53,7 @@
       {
         "id": 7,
         "nome": "Giorgian De Arrascaeta",
-        "salário": "3200",
+        "salario": "3200",
         "cpf": "954.716.077-08",
         "idade": "53",
         "profissao":"Chefe de cozinha",
@@ -63,7 +63,7 @@
       {
         "id": 8,
         "nome": "Lionel Messi",
-        "salário": "2500",
+        "salario": "2500",
         "cpf": "834.595.017-58",
         "idade": "24",
         "profissao":"Autonomo",
